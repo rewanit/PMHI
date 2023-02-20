@@ -49,8 +49,8 @@ namespace PMHI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var rangeArray = new List<int>() { 8, 10, 12, 15, 20, 30, 40, 50, 70, 100 };
-            var sizeArray = new List<int>() { 0, 20, 40, 60, 100, 150, 200, 250, 300, 350 };
+            var rangeArray = new List<int>() { 0, 20, 40, 60, 100, 150, 200, 250, 300, 350};
+            var sizeArray = new List<int>() { 8, 10, 12, 15, 20, 30, 40, 50, 70, 100 };
             var iterations = 3;
             List<ShowModel> list = GenSequence(rangeArray, sizeArray, iterations);
             var form = new DisplayForm(3,list);
